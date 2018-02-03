@@ -21,7 +21,8 @@
       "styles": [
         "../node_modules/tether/dist/css/tether.min.css",
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
-        "styles.css"
+        "styles.css",
+        "../node_modules/font-awesome/css/font-awesome.min.css"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
@@ -35,6 +36,9 @@
         "prod": "environments/environment.prod.ts"
       }
     }
+  ],
+  "addons": [
+    "../node_modules/font-awesome/fonts/*.+(otf|eot|svg|ttf|woff|woff2)"
   ],
   "e2e": {
     "protractor": {
